@@ -89,7 +89,7 @@ Output:
 |andy|112|
 |bob|90|
 
-Note: output will be a binary data. You can use fs.writeFile to write these into a file. 
+Note: output will be binary data. You can use fs.writeFile to write these into a file. 
 
 ```js
 var fs = require('fs');
@@ -100,7 +100,7 @@ fs.writeFileSync('C:\\Users\\andyl\\Documents\\acer-ai\\src\\upload-folder\\test
 # Notice
 
 In the following case:
-Because we don't specify 'year' in the headers, simple-export-excel will ignore the 'year'  during the parsing process.
+because we don't specify 'year' in the headers, simple-export-excel will ignore the 'year'  during the parsing process.
 
 
 ```js
