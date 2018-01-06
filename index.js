@@ -57,6 +57,8 @@ function parseObj(headers, sheetdata){
         Object.keys(entry).forEach( k=>{
             if(typeof entry[k] === 'undefined'){
                 row.push('');
+            }else if(util.isArray(entry[k])){
+                row.push(entry[k].join(';'));
             }else{
                 row.push(entry[k]);
             }
