@@ -1,0 +1,14 @@
+{
+  "name": "simple-export-excel",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "andy.lai",
+  "license": "ISC",
+  "dependencies": {
+    "excel-export": "^0.5.1"
+  }
+}
