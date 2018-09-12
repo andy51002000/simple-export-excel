@@ -1,13 +1,21 @@
 {
   "name": "simple-export-excel",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andy51002000/simple-export-excel.git"
+  },
   "author": "andy.lai",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andy51002000/simple-export-excel/issues"
+  },
+  "homepage": "https://github.com/andy51002000/simple-export-excel/#readme",
   "dependencies": {
     "excel-export": "^0.5.1"
   },

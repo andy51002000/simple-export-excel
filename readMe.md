@@ -224,3 +224,8 @@ The output will be like:
 |item|price|dealership.us[0].name|dealership.us[0].address|dealership.us[0].prop|dealership.us[1].name|dealership.us[1].address|dealership.us[1].prop|
 |:---|:----|:--------------------|:-----------------------|:--------------------|:--------------------|:-----------------------|:--------------------|
 |apple|1000|andy|street 1, no 38|car;house|bob|stree 2, no 113|stock;car|
+
+# Release Note:
+
+## 2.0.1
+The white spaces in the sheet name will be replaced by '_'
